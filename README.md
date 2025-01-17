@@ -77,6 +77,8 @@ In my opinion, Generative AI is not a substitute for learning how to program. Ju
 
 If you blindly ask GenAI to write some code, it will do it to the best of its abilities given the information you provided. The code might even work! But what if the code you are given doesn't work? Or what if it produces unintended results? I nearly always use GenAI as I am writing code today and when I do, I am guiding it to the correct results. While GenAI makes tedious programming tasks immensely easier, it is fallible and flawed and you must supervise it. 
 
+In order to learn how to program, you will have to struggle with it. When you at least have a grasp on the basics, then you can start to combine your programming skills with GenAI
+
 ## Use Cases in this workshop
 
 - start from a blank canvas
