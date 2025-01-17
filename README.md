@@ -1,5 +1,5 @@
 ```
-Last updated 02/18/24
+Last updated 01/17/2025
 ```
 
 # Python Programming & Generative AI
@@ -31,12 +31,11 @@ I'm a part of a group called [research data services](https://data.library.virgi
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Intro to Python pt 1                                                |       Tuesday 1/30   |  12:00 - 1:30pm
-| Intro to Python pt 2                                                |       Tuesday 2/6    |  12:00 - 1:30pm
-| Python Data Analysis + Visualization                                |       Tuesday 2/13   |  12:00 - 1:30pm
-| Intro to Version Control w/ Git + Github                            |       Wednesday 2/14 |  10:00 - 11:30pm
-| Python and ChatGPT                                                  |       Tuesday 2/20   |  12:00 - 1:30pm
-| Geospatial Data + Mapping in Python                                 |       Tuesday 3/12   |  12:00 - 1:30pm
+| Intro to Python pt 1                                                |       Wednesday 1/22   |  10:00 - 11:30am
+| Intro to Python pt 2                                                |       Wednesday 1/29   |  10:00 - 11:30am
+| Python Programming w/ GenAI pt 1                                    |       Wednesday 2/5    |  10:00 - 11:30am
+| Python Programming w/ GenAI pt 2                                    |       Wednesday 2/12   |  10:00 - 11:30am
+| Using Large Language Models Locally                                 |       Wednesday 2/26   |  10:00 - 11:30am
 
 
 ## Generative AI background 
@@ -44,7 +43,22 @@ Generative artificial intelligence refers to a class of artificial intelligence 
 
 One prominent example of generative AI is the GPT model (Generative Pre-Trained Transformer) which is a type of transformer architecture developed by OpenAI. GPT models are capable of generating human-like text based on the input they receive. They have been used in various applications including natural language processing, content creation, language translation, etc. Large language models, like GPT, are pre-trained on vast datasets in order to understand human-like langage patterns. Pre-Training means that massive datasets are fed into the language model containing diverse examples of human language. During this phase, the model learns to predict the next word in a sentence based on the context of the preceding words. This process helps the model capture the nuances of human language.
 
-## Caveat - Don't Trust AI Blindly!
+## AI use at UVA
+Generative AI has thrown academia for a loop and while the dust has settled somewhat since ChatGPT hit the scene in late 2022, there are still a lot of questions and concerns of how to be a responsible Generative AI user. UVA has published some information about expectations, best practices, and guidelines for AI use at the university. Here are some links and resources that may be helpful:
+- [UVA Honor Committee](https://honor.virginia.edu/faculty-tas/artificial-intelligence)
+- [GenAI Use Guidelines](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317)
+- [GenAI FAQ](https://provost.virginia.edu/subsite/genai/faqs)
+
+
+## AI Resources at UVA
+While most of this material is available to anyone, whether you are a part of the University of Virginia or not, these resources are available to UVA-affiliated people through our ITS department. UVA ITS maintains a page with up-to-date information of their current AI offerings, found [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=dbe41947dbe3f91066d98f38139619db).
+
+UVA is a Microsoft Campus and for that reason, I will be teaching this workshop using Microsoft's Generative AI tool, Copilot. However, results should be very similar using any other AI chatbot tool such as ChatGPT, Gemini, etc. 
+
+**Disclaimer**
+If you are a UVA-affiliated person, make sure to log into Copilot through the [UVA ITS](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=dbe41947dbe3f91066d98f38139619db) portal. Because UVA has a site license with Microsoft, UVA's instance of Copilot will protect personal information, your chat history, etc.
+
+## Don't Trust AI Blindly!
 
 **From ChatGPT itself...**
 While GPT and similar language models are powerful, there are situations where you should be cautious and not rely solely on their generated content. Situations you should not rely on generative AI include
@@ -58,12 +72,16 @@ While GPT and similar language models are powerful, there are situations where y
 
 To summarize, while generative AI is good for a lot of things, it is not perfect and it can be tricky to know when to use it versus when not to use it. In the rest of the workshop we will look at some use cases that I tend to use gen AI for when it comes to writing code in python. 
 
-## ChatGPT 3 vs ChatGPT 4
-**In this workshop we will be using ChatGPT 3.5**. At the time of creating this workshops, this is the free version of the software. There are various paid tiers of service which upgrade the model available. I wanted to make this content accessible to all for free. ChatGPT 4 has improved functionality and if you choose, you are welcome to subscribe to it. 
+# GenAI is not a substitute for learning to program!
+In my opinion, Generative AI is not a substitute for learning how to program. Just like any tool, you have to learn to wield it's power. I compare this to learning to drive a car. We understand that driving is a great responsibility and for that reason we have protocols in place to teach people the rules, basics, and best practices. Even then, there is a period of time where new drivers must be supervised. Just like with driving a car, with the power of GenAI comes great responsibility! 
+
+If you blindly ask GenAI to write some code, it will do it to the best of its abilities given the information you provided. The code might even work! But what if the code you are given doesn't work? Or what if it produces unintended results? I nearly always use GenAI as I am writing code today and when I do, I am guiding it to the correct results. While GenAI makes tedious programming tasks immensely easier, it is fallible and flawed and you must supervise it. 
 
 ## Use Cases in this workshop
 
 - start from a blank canvas
+- talking to the AI
+- follow up on the AI's results
 - specialized libraries like pandas and selenium
 - writing comments and documentation
 - regular expressions decoding
