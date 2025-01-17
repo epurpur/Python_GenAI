@@ -2,7 +2,7 @@
 Last updated 02/18/24
 ```
 
-# Python & ChatGPT
+# Python Programming & Generative AI
 This workshop is meant to show you various ways you can potentially use the power of Generative AI to complement your programming in python to become more efficient, troubleshoot errors, learn more about weak points, and automate tedious or annoying tasks. 
 
 ## **About Me**
