@@ -8,3 +8,4 @@ Rough outline of workshop:
 -Add caveat on how NOT to use ChatGPT
 
 -Run through some scenarios
+	-upload Cville Census Tracts
