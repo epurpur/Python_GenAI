@@ -1,5 +1,5 @@
 ```
-Last updated 01/17/2025
+Last updated 09/17/2025
 ```
 
 # Gen AI Prompt Engineering & Python
@@ -27,12 +27,21 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-## Upcoming Workshops
+## Upcoming Python Workshops
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Workshop name                                               |       Workshop date   |  workshop time
+| Intro to Python pt 1                                                |       Tuesday 9/2   |  11:00 - 12:30am
+| Intro to Python pt 2                                                |       Tuesday 9/9   |  11:00 - 12:30am
+| Python Data Analysis & Visualization                                |       Tuesday 9/16  |  11:00 - 12:30am
+| AI Prompt Engineering for Python                                    |       Thursday 9/18 |  1:00 - 2:30pm
 
+## Upcoming AI Workshops
+| Workshop | Date | Time |
+| ---- | ---- | ---- |
+| Using Large Language Models Locally                                 |       Thursday 9/4   |  1:00 - 2:30pm
+| AI Prompt Engineering w/ CLEAR Framework                            |       Thursday 9/11  |  1:00 - 2:30pm
+| AI Prompt Engineering for Python                                    |       Thursday 9/18  |  1:00 - 2:30pm
 
 
 ## Generative AI background 
@@ -69,6 +78,13 @@ While GPT and similar language models are powerful, there are situations where y
 
 To summarize, while generative AI is good for a lot of things, it is not perfect and it can be tricky to know when to use it versus when not to use it. In the rest of the workshop we will look at some use cases that I tend to use gen AI for when it comes to writing code in python. 
 
+# GenAI is not a substitute for learning to program!
+In my opinion, Generative AI is not a substitute for learning how to program. Just like any tool, you have to learn to wield it's power. I compare this to learning to drive a car. We understand that driving is a great responsibility and for that reason we have protocols in place to teach people the rules, basics, and best practices. Even then, there is a period of time where new drivers must be supervised. Just like with driving a car, with the power of GenAI comes great responsibility! 
+
+If you blindly ask GenAI to write some code, it will do it to the best of its abilities given the information you provided. The code might even work! But what if the code you are given doesn't work? Or what if it produces unintended results? I nearly always use GenAI as I am writing code today and when I do, I am guiding it to the correct results. While GenAI makes tedious programming tasks immensely easier, it is fallible and flawed and you must supervise it. 
+
+In order to learn how to program, you will have to struggle with it. When you at least have a grasp on the basics, then you can start to combine your programming skills with GenAI
+
 # CLEAR Framework
 In 2023, UVA Library Dean [Leo Lo](https://library.virginia.edu/news/2025/leo-lo-named-uva-librarian-and-dean-libraries) published the article: [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://www.sciencedirect.com/science/article/abs/pii/S0099133323000599). This article is a logically organized method for interacting with AI chatbots in order to get the best results possible. When writing prompts, the five points to keep in mind are...
 
@@ -81,57 +97,7 @@ In 2023, UVA Library Dean [Leo Lo](https://library.virginia.edu/news/2025/leo-lo
 | A | Adaptive. Flexibility and customization in prompts    |
 | R | Reflective. Continuous evaluation and improvement of prompts    |
 
-#### C. Concise
-Brevity is important in crafting prompts. A concise prompt removes superfluous information and allows the LLM to focus on the most important aspects of a prompt. Clarity is important as unclear instructions may result in bad responses. Writing effective prompts requires ensuring that the question is specific and directed toward the desired response.
 
-*Example:* Please provide me an example of how to write python code to read a dataset and remove some columns from it.
-
-*Improvement:* Read a csv file in python pandas and remove the "extraneous" column. (Extraneous is a made up column name)
-
-#### L. Logical
-Logical prompts enables AI models to better comprehend the context and relationships between various concepts, resulting in more accurate and coherent outputs. Ensure that the information provided follows a natural progression and that the relationship between concepts are evident.
-
-*Example:* I have a long script that works and I need to share it with my labmate. How do I do that?
-
-*Improvement:* Describe the steps of refactoring and thoroughly documenting my code to make it faster and more usable.
-
-#### E. Explicit
-Explicit prompts underscore the need for clear output specifications in the queries posed to AI language models. Explicit prompts provide precise instructions regarding the desired output format, content, or scope, thereby reducing the likelihood of receiving unanticipated or irrelevant responses from the AI model. 
-
-*Example:* How to combine all the steps of a python for loop into one line?
-
-*Improvement:* Write a list comprehension in python. 
-
-#### A. Adaptability
-Adaptability entails experimenting with various prompt formulations, phrasing, and settings (if available) in order to establish a balance between creativity and concentration. When crafting prompts, be flexible and willing to attempts new approaches based on the performance of the model. 
-
-*Example:* If the results of a prompt such as "How to write a regular expression to identiy mailing addresses in python" yields results that are too vague or not what you are looking for, consider doing something like...
-
-*Improvement:* Write a regular expression in python to identify United States mailing addresses using the RegEx library.
-
-#### R. Reflective
-Adopting a reflective perspective puts gives users agency to evaluate the performance of the AI model, identifying areas for improvement and adjusting their approach accordingly. Make it a habit to examine the AI-generated content and apply insights to future prompts. This includes fact checking! Be aware that the AI doesn't always know what it is talking about and don't accept it's answers as truth. 
-
-# GenAI is not a substitute for learning to program!
-In my opinion, Generative AI is not a substitute for learning how to program. Just like any tool, you have to learn to wield it's power. I compare this to learning to drive a car. We understand that driving is a great responsibility and for that reason we have protocols in place to teach people the rules, basics, and best practices. Even then, there is a period of time where new drivers must be supervised. Just like with driving a car, with the power of GenAI comes great responsibility! 
-
-If you blindly ask GenAI to write some code, it will do it to the best of its abilities given the information you provided. The code might even work! But what if the code you are given doesn't work? Or what if it produces unintended results? I nearly always use GenAI as I am writing code today and when I do, I am guiding it to the correct results. While GenAI makes tedious programming tasks immensely easier, it is fallible and flawed and you must supervise it. 
-
-In order to learn how to program, you will have to struggle with it. When you at least have a grasp on the basics, then you can start to combine your programming skills with GenAI
-
-
-## Use Cases in this workshop
-
-- start from a blank canvas
-- talking to the AI
-- follow up on the AI's results
-- specialized libraries like pandas and selenium
-- writing comments and documentation
-- regular expressions decoding
-- convert from one language to another
-- follow up on things you don't understand
-- deconstructing error messages
-- optimization
 
 ## Self Help
 
